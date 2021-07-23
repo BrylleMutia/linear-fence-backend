@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "name": "Hero",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "default": "FOR YOUR FENCE INSTALLATION NEEDS",
+      "required": true
+    },
+    "subheader": {
+      "type": "text",
+      "default": "If you are looking for a reliable, durable, long-lasting vinyl, ornamental, or chain-link fence, give us a call today!"
+    },
+    "button_text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
