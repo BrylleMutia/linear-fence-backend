@@ -1,3 +1,6 @@
-# Strapi application
+## Linear Fence backend (strapi)
 
-A quick description of your strapi application
+Strapi backend using REST API for linear fence. 
+
+# Run development server
+> npm run develop
